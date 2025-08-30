@@ -1,4 +1,5 @@
 function removeDuplicates(arr) {
+    // Sol 1
     // let charTrack = [];
 
     // newArr = arr.map(ar => {
@@ -10,6 +11,7 @@ function removeDuplicates(arr) {
     // })
 
     // return charTrack
+    // Sol 2
     return Array.from(new Set(arr))
 }
 

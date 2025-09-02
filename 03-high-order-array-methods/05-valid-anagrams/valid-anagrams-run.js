@@ -1,5 +1,5 @@
 const validAnagrams = require('./valid-anagrams');
 
-const result = validAnagrams('app', 'ppa');
+const result = validAnagrams('listen', 'silent');
 
 console.log(result);
